@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on techiguana</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on techiguana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Nov 2020 19:42:14 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>smart-home</title>
+      <link>/tags/smart-home/</link>
+      <pubDate>Mon, 02 Nov 2020 19:42:14 -0400</pubDate>
+      
+      <guid>/tags/smart-home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>television</title>
+      <link>/tags/television/</link>
+      <pubDate>Mon, 02 Nov 2020 19:42:14 -0400</pubDate>
+      
+      <guid>/tags/television/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

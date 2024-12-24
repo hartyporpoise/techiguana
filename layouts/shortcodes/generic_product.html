@@ -1,0 +1,7 @@
+<a target="_blank" href="https://www.amazon.com/gp/product/{{ .Get "asin" }}/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN={{ .Get "asin" }}&linkCode=as2&tag=techiguana-20&linkId=7e0f3c627a4129bc1d6ce957a1ae15c7">
+  <img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN={{ .Get "asin" }}&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=techiguana-20" {{ with .Get "alt" }}
+    alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" width="auto" height="auto" {{ end }} />
+  {{ if .Get "caption" }}
+  <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }} font-size:10px" {{ end }}>{{ .Get "caption" | markdownify }}</figcaption>
+  {{ end }}
+</a>
